@@ -93,7 +93,6 @@
             margin-bottom: 1rem;
             line-height: 1.5;
             text-align: justify;
-            max-width: 1000;
         }
 
         .about-links {
@@ -147,10 +146,6 @@
             color: #000000;
             font-weight: 400;
             text-align: left;
-        }
-
-        section p {
-            max-width: 900;
         }
 
         section a {
@@ -314,5 +309,28 @@
             .schedule-item {
                 flex-direction: column;
                 gap: 0.5rem;
+                padding: 2rem 2rem;
+            }
+
+            section {
+                padding: 2rem 2rem;
+            }
+            
+            .hero {
+                padding: 1.5rem;
+            }
+
+            .about {
+                padding: 2rem 2rem;
+            }
+
+            .speakers {
+                padding: 2rem 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            section {
+                padding: 2rem 0.75rem;
             }
         }
