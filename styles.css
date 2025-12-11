@@ -68,7 +68,8 @@
         /* About/Description Section */
         .about {
             padding: 5rem;
-            max-width: 1000px;
+            padding-bottom: 1rem;
+            max-width: 1200px;
             margin: 0 auto;
             text-align: left;
         }
@@ -121,12 +122,13 @@
         /* Section Styles */
         section {
             padding: 1rem 2rem;
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
         }
 
         section h2 {
             font-size: 2rem;
+            margin-top: 2rem;
             margin-bottom: 2rem;
             text-align: center;
             color: #1d3557;
