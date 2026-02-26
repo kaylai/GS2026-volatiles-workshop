@@ -83,7 +83,7 @@
         
         .about h3 {
             font-size: 1.2rem;
-            margin-bottom: 0.75rem;
+            margin-bottom: 0rem;
             color: #06a49f;
         }
 
@@ -116,6 +116,40 @@
         .about-links a:hover {
             background: #e63946;
             color: white;
+        }
+
+        /* Logistics Cards */
+        .logistics-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.25rem;
+            max-width: 1200px;
+            margin: 1.5rem auto 2rem;
+        }
+
+        .logistics-card {
+            background: #e9f3f7;
+            border-radius: 10px;
+            padding: 1.25rem;
+            border-left: 3px solid #1d3557;
+        }
+
+        .logistics-card h3 {
+            font-size: 1rem;
+            color: #1d3557;
+            margin-bottom: 0.35rem;
+        }
+
+        .logistics-card p {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.5;
+            margin: 0;
+            text-align: left;
+        }
+
+        .logistics-card a {
+            color: #06a49f;
         }
 
         /* Section Styles */
@@ -207,7 +241,7 @@
 
         /* Schedule Section */
         .schedule {
-            background: #f1faee;
+            background: #e9f3f7;
         }
 
         .schedule-inner {
@@ -320,6 +354,10 @@
                 padding: 1.5rem;
             }
 
+            .logistics-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
             .about {
                 padding: 2rem 2rem;
             }
@@ -332,5 +370,9 @@
         @media (max-width: 480px) {
             section {
                 padding: 2rem 0.75rem;
+            }
+
+            .logistics-grid {
+                grid-template-columns: 1fr;
             }
         }
