@@ -252,8 +252,46 @@
         .schedule-item {
             display: flex;
             gap: 2rem;
-            padding: 1.5rem 0;
             border-bottom: 1px solid #ddd;
+        }
+
+        .schedule-break-item {
+            display: flex;
+            gap: 2rem;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .schedule-break-details h4{
+            color: #1d3557;
+            font-weight: 500;
+            margin-bottom: 0rem;
+        }
+
+        .schedule-break-details p{
+            color: #555;
+            font-size: medium;
+        }
+
+        .schedule-session-item {
+            display: flex;
+            gap: 2rem;
+            padding-bottom: 1rem;
+            padding-top: 2.5rem;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .schedule-session-details h3{
+            color: #06a49f;
+        }
+
+        .schedule-session-details h4{
+            color: #555;
+            font-size: 1rem;
+        }
+
+        .schedule-session-details p{
+            color: #555;
+            font-size: 0.9rem;
         }
 
         .schedule-item:last-child {
