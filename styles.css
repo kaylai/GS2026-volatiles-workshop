@@ -204,7 +204,7 @@
 
         .speakers-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 1rem;
         }
 
@@ -214,6 +214,8 @@
             background: #f8f9fa;
             border-radius: 12px;
             transition: transform 0.2s;
+            /* width: 250px;
+            height: 250px; */
         }
 
         .speaker-card h3 {
@@ -221,10 +223,6 @@
             background: #f8f9fa;
             border-radius: 12px;
             transition: transform 0.2s;
-        }
-
-        .speaker-card:hover {
-            transform: translateY(-5px);
         }
 
         .speaker-card img {
